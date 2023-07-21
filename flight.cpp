@@ -1,10 +1,10 @@
 #include<iostream>
 using namespace std;
-class Fuel
+class Flight
 {
     private:
     int flightNo;
-    char destination;
+    char destination[30];
     float distance,Fuel;
 
     int CALFUEL()
@@ -44,7 +44,7 @@ class Fuel
 };
 int main()
 {
-    Fuel f;
+    Flight f;
     f.FEEDINFO();
     f.SHOWINFO();
 }
