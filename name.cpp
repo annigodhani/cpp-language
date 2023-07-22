@@ -22,10 +22,10 @@ class Report
         cout<<"Enter a name:";
         cin>>name;
         cout<<"Enter a mark for 5 subject";
-       // for(a=0;a<5;a++)
-        //{
+        for(a=0;a<5;a++)
+        {
          cin>>mark[a];
-  //  }
+    }
         cout<<endl;
         GETAVG(); 
     }
@@ -33,10 +33,10 @@ class Report
     {
         cout<<"Admission number:"<<adno<<endl;
         cout<<"Name:"<<name<<endl;
-        // for (a=0;a<5;a++) 
-        //{
-       //     cout <<mark[a]<<endl;
-       // }
+        for (a=0;a<5;a++) 
+        {
+        cout <<mark[a]<<endl;
+        }
         cout<<"Average:"<<average<<endl;
     }
 };
