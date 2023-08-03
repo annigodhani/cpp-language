@@ -10,11 +10,11 @@ class Factorial
 };
 class Name{
 public:
-int value;
-void get()
+int val;
+void Get()
 {
- cout<<"ENter any number ";
- cin>>value;
+ cout<<"Enter Any Num:";
+ cin>>val;
  }
 };
 class Derived : public Factorial,protected Name   // protected name ni badle public name hoi to 
@@ -22,11 +22,11 @@ class Derived : public Factorial,protected Name   // protected name ni badle pub
  public:
  int Getdata()
 {
-// Name :: Get();                               // name :: get (); no lakhavu pade and 
+ //Name :: Get();                               // name :: get (); no lakhavu pade and 
  int fact=1,i;
- cout<<"ENter Any Num:";                    // a line ne hu class name ma laigayo chu atle com. mari che 
- cin>>value;
-for(i=1;i<=value;i++)
+ cout<<"Enter Any Num:";                    // a line ne hu class name ma laigayo chu atle com. mari che 
+ cin>>val;
+for(i=1;i<=val;i++)
 {    
  fact=fact*i;    
 }    
@@ -36,7 +36,7 @@ for(i=1;i<=value;i++)
 int main()
 {
     Derived d;
-   // m. get();                                 // m. get(); jo publuic hoi to lakhavu pade 
+    // d.Get();                                 // m. get(); jo publuic hoi to lakhavu pade 
     d.Getdata();
     d.Test();
 }

@@ -1,1 +1,7 @@
-2
+
+{
+  protected:
+  int Num; 
+  public:
+ Table(int k) 
+{
