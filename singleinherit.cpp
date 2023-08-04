@@ -7,7 +7,7 @@ class Base
  int k;
  public:
  void Hallo()
- {
+{
    cout<<"Wel Come....."<<endl;
  }
 };
