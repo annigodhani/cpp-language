@@ -196,7 +196,7 @@ int main ()
      
         a.getinformation();
 
-        cout<<"\n\t\t\t :::::::::: Mitra's Fashion :::::::::: \n";
+        cout<<"\n\t\t\t :::::::::::::: Mitra's Fashion :::::::::::::: \n";
         cout<<" \n [1] Plain T-shart                : RS. 200 /- "; 
         cout<<" \n [2] Full-Slive T-shart           : RS. 300 /- "; 
         cout<<" \n [3] Fancy T-shart                : RS. 400 /- "; 
